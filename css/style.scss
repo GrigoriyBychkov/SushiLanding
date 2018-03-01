@@ -20,15 +20,23 @@ body, html {
     width: 100%;
     /* height: 907px; */
     font-family: Tahoma, SansSerif, Arial;
+
+    .content {
+      width: 966px;
+      height: 287px;
+      margin: 0 auto;
+      margin-bottom: 34px;
+      border: 2px solid #ffde00;
+    }
+
+    .bottom {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
   }
 
-  .content {
-    width: 966px;
-    height: 287px;
-    margin: 0 auto;
-    margin-bottom: 34px;
-    border: 2px solid #ffde00;
-  }
+
 
   .slider {
     position: relative;
@@ -70,11 +78,7 @@ body, html {
     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
   }
 
-  .bottom {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-  }
+
 
   .menu {
     width: 970px;

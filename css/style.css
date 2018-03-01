@@ -16,12 +16,16 @@ body, html {
     width: 100%;
     /* height: 907px; */
     font-family: Tahoma, SansSerif, Arial; }
-  .container .content {
-    width: 966px;
-    height: 287px;
-    margin: 0 auto;
-    margin-bottom: 34px;
-    border: 2px solid #ffde00; }
+    .container .main .content {
+      width: 966px;
+      height: 287px;
+      margin: 0 auto;
+      margin-bottom: 34px;
+      border: 2px solid #ffde00; }
+    .container .main .bottom {
+      position: absolute;
+      width: 100%;
+      bottom: 0; }
   .container .slider {
     position: relative;
     height: 284px !important;
@@ -48,10 +52,6 @@ body, html {
     background-image: url("../img/slider2.jpg"); }
   .container .text-bordered {
     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; }
-  .container .bottom {
-    position: absolute;
-    width: 100%;
-    bottom: 0; }
   .container .menu {
     width: 970px;
     height: 55px;
