@@ -107,3 +107,11 @@
 
 .slider-1 { background-image: url('../img/slider1.jpg'); }
 .slider-2 { background-image: url('../img/slider2.jpg'); }
+
+body {
+    height: 100%;
+}
+
+html {
+    height:100%;
+}
